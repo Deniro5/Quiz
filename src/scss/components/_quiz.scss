@@ -1,0 +1,40 @@
+.quizContainer {
+
+}
+
+.loadingWheel {
+  display:block;
+  margin:35vh auto;
+  height:100px;
+  width:100px;
+}
+
+.scoreDisplay {
+  text-align: center;
+  margin-top:50px;
+  margin-bottom:-30px;
+  font-size:22px;
+}
+
+.quizTitle {
+  text-align:center;
+  text-decoration: underline;
+}
+
+
+.submitButton {
+  display: block;
+  height: 40px;
+  width: 150px;
+  margin: 75px auto;
+  background:white;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid rgb(151, 150, 150);
+  &:hover {
+    color:black;
+    background:white;
+  }
+}

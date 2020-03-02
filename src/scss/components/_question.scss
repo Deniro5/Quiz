@@ -1,0 +1,122 @@
+.questionContainer {
+  width:90%;
+  max-width:800px;
+  display: block;
+  margin:auto;
+  border-radius: 10px;
+  vertical-align: top;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background:white;
+  margin-top:75px;
+  padding:10px;
+  padding-left:30px;
+  padding-bottom:50px;
+  border: 1px solid rgb(201, 201, 201);
+  color:black;
+  position: relative;
+}
+
+.question {
+  margin-bottom:40px;
+}
+
+.questionDivider {
+  background: whitesmoke;
+  height:2px;
+  width:250px;
+  margin:auto;
+  margin-top:-5px;
+  margin-bottom:30px;
+}
+
+.questionNumber {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.answerContainer {
+  padding:1px 10px;
+  height:40px;
+  line-height: 10px;
+  margin-top:30px;
+  border-radius: 10px;
+  color:white;
+  border: 5px white solid;
+}
+
+.red {
+  background:Red;
+  transition:0.3s;
+  cursor: pointer;
+  &:hover {
+    background:rgb(192, 0, 0);
+    border: 5px yellow solid;
+  }
+}
+
+.redSelected {
+  background:rgb(192, 0, 0);
+  border: 5px yellow solid;
+}
+
+.purple {
+  background:rgb(204, 0, 204);
+  transition:0.3s;
+  cursor: pointer;
+  &:hover {
+    background:rgb(168, 0, 168);
+    border: 5px yellow solid;
+  }
+}
+
+.purpleSelected {
+  background:rgb(168, 0, 168);
+  border: 5px yellow solid;
+}
+
+.blue {
+  background:blue;
+  transition:0.3s;
+  cursor: pointer;
+  &:hover {
+    background:rgb(0, 0, 182);
+    border: 5px yellow solid;
+  }
+}
+
+.blueSelected {
+  background:rgb(0, 0, 182);
+  border: 5px yellow solid;
+}
+
+.grey {
+  background:red;
+}
+
+.greySelected {
+  background:red;
+  border: 5px yellow solid;
+}
+
+.green {
+  background:rgb(0, 165, 0);
+}
+
+.greenSelected {
+  background:rgb(0, 165, 0);
+  border: 5px yellow solid;
+}
+
+.resultIcon {
+  width:25px;
+  height:25px;
+  position: absolute;
+  right:20px;
+  top:15px;
+}
+
+
+
+
+
