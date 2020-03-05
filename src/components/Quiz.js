@@ -53,7 +53,7 @@ const Quiz = (props) => {
  if (questions.length === 0) {
    return (
       <div className="quizContainer">
-        <img alt = "loading" className = "loadingWheel" src = "../img/loading.gif"/>
+        <img alt = "loading" className = "loadingWheel" src = "imgs/loading.gif"/>
       </div>
    )
   }

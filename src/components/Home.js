@@ -9,22 +9,22 @@ const Home = props => {
     return (
       <div className = "homeContainer">
         <Link to ="/sports">
-          <Card category = "Sports" background = "../img/sports.jpg"/>
+          <Card category = "Sports" background = "imgs/sports.jpg"/>
         </Link>
         <Link to ="/music">
-          <Card category = "Music" background = "../img/music.jpg"/>
+          <Card category = "Music" background = "imgs/music.jpg"/>
         </Link>
         <Link to ="/geography">
-          <Card category = "Geography" background = "../img/geography.jpg"/>
+          <Card category = "Geography" background = "imgs/geography.jpg"/>
         </Link>
         <Link to ="/history">
-          <Card category = "History" background = "../img/history.jpg"/>
+          <Card category = "History" background = "imgs/history.jpg"/>
         </Link>
         <Link to ="/movies">
-          <Card category = "Movies" background = "../img/movies.jpg"/>
+          <Card category = "Movies" background = "imgs/movies.jpg"/>
         </Link>
         <Link to ="/animals">
-          <Card category = "Animals" background = "../img/animals.jpg"/>
+          <Card category = "Animals" background = "imgs/animals.jpg"/>
         </Link>
       </div>
   );

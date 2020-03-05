@@ -55,7 +55,7 @@ const Question = props => {
   else if (submitted) {
     return (
       <div className="questionContainer">
-        <img className = "resultIcon" alt = "result" src = {selected === correctAnswer ? "../img/checkmark.png" : "../img/wrong.png" }/>
+        <img className = "resultIcon" alt = "result" src = {selected === correctAnswer ? "imgs/checkmark.png" : "imgs/wrong.png" }/>
         <h2 className="questionNumber"> Question {number} </h2>
         <div style={{ width: "90%", margin: "auto" }}>
           <h2 className="question"> {question} </h2>
